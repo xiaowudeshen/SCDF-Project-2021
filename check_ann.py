@@ -14,8 +14,8 @@ import string
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-path", default= test, help='path to the directory where all the annotated data is stored')
-parser.add_argument("-name", default=student ,help='Name of the annotator')
+parser.add_argument("-path", default= 'test', help='path to the directory where all the annotated data is stored')
+parser.add_argument("-name", default= 'student' ,help='Name of the annotator')
 args = parser.parse_args()
 
 
