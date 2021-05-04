@@ -25,7 +25,7 @@ Check headers, endings, role definition, incidence happened
 <pre> python check_ann.py</pre>
 
 - For those who are very familiar with running a cript:
-<pre> python check_ann.py -path <PATH TO FILE DIRECTORY> -name <ANNOTATOR NAME> </pre>
+<pre> python check_ann.py -path '<PATH TO FILE DIRECTORY>' -name '<ANNOTATOR NAME>' </pre>
 
 ## Results
 1. For each file, the script will print "Processing/Reading/Finishing reading file" + "Name of the file"
