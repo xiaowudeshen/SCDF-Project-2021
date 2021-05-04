@@ -19,7 +19,7 @@ Check headers, endings, role definition, incidence happened
 - For those who are not familiar with running a script:
 1. Pls use the default setting
 2. Put the folder containing your annotated data at the same folder with check_ann.py
-3. Change the folder name to test
+3. Change the folder name to test (small letter of TEST with only four letters)
 4. Run the script in any of the compiler
 5. if you are using a terminal, run this:
 <pre> python check_ann.py</pre>
