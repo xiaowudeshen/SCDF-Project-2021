@@ -1,3 +1,9 @@
+##file to read and generate incidence dictionary from the given txt file
+##need to convert the text into format as
+## 1. Incidence Name
+## {Question: Ans1 || Ans2|| Ans3}
+
+
 import re
 import ast
 
