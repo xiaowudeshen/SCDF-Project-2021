@@ -1,6 +1,6 @@
 # Author: Victor Li
 # Date: 29/4/21
-# Version:6
+# Version:7
 # mainly designed to check and read the annotation
 # Add more features in checking the incidence name, question and answers
 
