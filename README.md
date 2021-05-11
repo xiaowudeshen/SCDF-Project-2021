@@ -25,13 +25,13 @@ Check headers, endings, role definition, incidence happened
 <pre> python check_ann.py</pre>
 
 - For those who are very familiar with running a cript:
-Default setting for -path = 'test' and -name = 'studnet'
+Default setting for -path = 'test' and -name = 'student'
 <pre> python check_ann.py -path [PATH TO FILE DIRECTORY] -name [ANNOTATOR NAME] </pre>
 
 ## Results
 1. For each file, the script will print "Processing/Reading/Finishing reading file" + "Name of the file"
 2. If there is an "Exception" raised, go back and check the file named above
-3. If everyhing is OK, it will print "+++MIssion Complete+++"
+3. If everyhing is OK, it will print "+++Mission Complete+++"
 4. Job Done!
 
 
