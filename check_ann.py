@@ -140,8 +140,8 @@ def read_ann(sentence, name, age, gen, phone, address, inc):
         elif sentence[2] == 'loc':
             address.append(sentence[1])
         elif sentence[2] == 'inc':
-            if is_inc(sentence[1]) and is_question(sentence[1], sentence[3]):
-                inc = write_inc(inc, sentence[1], sentence[3])
+            if is_inc(sentence[1].strip()) and is_question(sentence[1].strip(), sentence[3].strip()):
+                inc = write_inc(inc, sentence[1].strip(), sentence[3].strip())
     elif not (re.findall('\((.*?)\)', sentence[2]) == '*'):
         content = re.findall('\((.*?)\)', sentence[2])
         new_content = sentence[1]
@@ -156,8 +156,8 @@ def read_ann(sentence, name, age, gen, phone, address, inc):
         elif sentence[2].startswith('loc'):
             address = replace_list(address, content, new_content)
         elif sentence[2].startswith('inc'):
-            if is_inc(sentence[1]) and is_question(sentence[1], sentence[3]):
-                inc = write_inc(inc, sentence[1], sentence[3])
+            if is_inc(sentence[1].strip()) and is_question(sentence[1].strip(), sentence[3].strip()):
+                inc = write_inc(inc, sentence[1].strip(), sentence[3].strip())
     inc_list = []
     inc_list.append(inc)
     ann = ['<Name>:'] + name + ['<Age>'] + age +['<Gender>'] + gen + ['<Phone>'] + phone + ['<Address>'] + address + ['<Incidence>'] + inc_list
